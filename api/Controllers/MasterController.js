@@ -87,7 +87,7 @@ var deleteDoc = function (collection, req, res) {
 router
   .get("/:collection/", RouteMiddleware, function (req, res) {
     var collection = req.params.collection;
-    // if (req.userId == "60c82d0c625a4500043b05c7") {
+    // if (req.userEmail == "demo@gmail.com") {
     //   console.log("/profle udpate demo");
     //   return myRes.error(res, "\nRegister / Login To update profile", 500, {
     //     result: [],
@@ -97,7 +97,7 @@ router
   })
   .get("/:collection/:id", RouteMiddleware, function (req, res) {
     var collection = req.params.collection;
-    // if (req.userId == "60c82d0c625a4500043b05c7") {
+    //   if (req.userEmail == "demo@gmail.com") {
     //   console.log("/profle udpate demo");
     //   return myRes.error(res, "\nRegister / Login To update profile", 500, {
     //     result: [],
@@ -107,7 +107,7 @@ router
   })
   .post("/:collection", RouteMiddleware, function (req, res) {
     var collection = req.params.collection;
-    // if (req.userId == "60c82d0c625a4500043b05c7") {
+    // if (req.userEmail == "demo@gmail.com") {
     //   console.log("/profle udpate demo");
     //   return myRes.error(res, "\nRegister / Login To update profile", 500, {
     //     result: [],
@@ -117,7 +117,7 @@ router
   })
   .put("/:collection/:id", RouteMiddleware, function (req, res) {
     var collection = req.params.collection;
-    // if (req.userId == "60c82d0c625a4500043b05c7") {
+    //   if (req.userEmail == "demo@gmail.com") {
     //   console.log("/profle udpate demo");
     //   return myRes.error(res, "\nRegister / Login To update profile", 500, {
     //     result: [],
@@ -129,7 +129,7 @@ router
   .patch("/:collection/:id", RouteMiddleware, function (req, res) {
     var collection = req.params.collection;
     //var id = req.params.id;
-    // if (req.userId == "60c82d0c625a4500043b05c7") {
+    //   if (req.userEmail == "demo@gmail.com") {
     //   console.log("/profle udpate demo");
     //   return myRes.error(res, "\nRegister / Login To update profile", 500, {
     //     result: [],
