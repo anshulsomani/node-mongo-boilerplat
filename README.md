@@ -1,4 +1,4 @@
-# ndoemongoboilserplat
+# ndoe mongo boilserplat
 
 
 # **What it is**
